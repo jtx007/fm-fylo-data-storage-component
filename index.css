@@ -1,0 +1,128 @@
+    body {
+        background-color: hsl(229, 57%, 11%);
+        background-image: url(/images/bg-desktop.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+@media screen and (max-width: 375px) {
+    body {
+        height: 100vh;
+        background-size: 100% 100%;
+
+        background-image: url(/images/bg-mobile.png);
+    }
+
+    .main {
+        display: grid;
+        place-items: center;
+        row-gap: 15px;
+    }
+
+    .fylo-logo-container {
+        background-color: hsl(228, 56%, 26%);
+        width: 90vw;
+        height: 29vh;
+        border-radius: 20px 40% 20px 20px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .fylo-stats-container {
+        background-color: hsl(228, 56%, 26%);
+        color: hsl(243, 100%, 93%);
+        width: 90vw;
+        height: 23vh;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+    }
+
+    .stats {
+        width: 70vw;
+    }
+
+    .icons {
+        display: flex;
+        width: 50vw;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 40px;
+
+    }
+
+    .icon {
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 5px;
+        padding: 10px;
+        
+    }
+
+    .progress-container {
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 20px;
+    }
+
+   
+
+    .progress-bar {
+        background-image: linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        padding: 8px;
+        border-radius: 20px;
+        width: 48vw;
+        position: relative;
+    }
+
+    .progress-stopper {
+        position: absolute;
+        background-color: #FFFEFF;
+        padding: 7px;
+        border-radius: 50%;
+        right: 1px;
+        bottom: 1px;
+    }
+    .progress-bar-endpoints {
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .storage-remaining {
+        position: absolute;
+        color: black;
+        background-color: white;
+        bottom: -50px;
+        right: 100px;
+        width: 45vw;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    h1 {
+        margin-right: 5px;
+    }
+
+    h4 {
+        color: #9D9CA2;
+        margin-left: 5px;
+    }
+}
