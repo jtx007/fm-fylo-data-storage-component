@@ -4,6 +4,8 @@
 
 ## Welcome! 👋
 
+## Solution Deployed [here](https://fm-fylo-data-storage-component-teal.vercel.app)
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
