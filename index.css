@@ -68,7 +68,11 @@ body {
   .icon {
     background-color: hsl(229, 57%, 11%);
     border-radius: 5px;
-    padding: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;                   
+    align-items: center;
+    justify-content: center;
   }
 
   .progress-container {
@@ -181,7 +185,11 @@ body {
   .icon {
     background-color: hsl(229, 57%, 11%);
     border-radius: 5px;
-    padding: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;                   
+    align-items: center;
+    justify-content: center;
   }
 
   .progress-container {
